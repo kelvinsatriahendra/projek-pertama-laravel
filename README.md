@@ -1,15 +1,15 @@
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
-## Tentang Projek Ini
+## 📰 Web Berita Sederhana (Filament CMS)
 
-Ini adalah aplikasi web yang dibangun menggunakan **Laravel 12**. Laravel adalah framework aplikasi web dengan sintaks yang ekspresif dan elegan. Projek ini dibuat untuk memberikan pengalaman pengembangan yang menyenangkan bagi pengembang tanpa mengorbankan fungsionalitas aplikasi.
+Projek ini adalah aplikasi web berita yang dibangun menggunakan framework **Laravel 12**. Untuk pengelolaan kontennya (Admin Panel), aplikasi ini menggunakan **Filament PHP**, sebuah CMS toolkit yang modern dan sangat produktif.
 
 ### Fitur Utama:
 
--   **Routing yang Cepat:** Sistem routing yang sederhana dan efisien.
--   **ORM Eloquent:** Pemetaan database yang intuitif dan mudah digunakan.
--   **Migrasi Database:** Manajemen skema database yang fleksibel.
--   **Keamanan:** Dilengkapi dengan perlindungan terhadap serangan web umum.
+-   **Manajemen Berita:** Kelola artikel, kategori, dan penulis dengan mudah melalui dashboard.
+-   **Filament CMS:** Panel admin yang elegan, responsif, dan kaya fitur.
+-   **Frontend Berita:** Tampilan utama untuk pembaca berita (masih dalam pengembangan).
+-   **ORM Eloquent:** Pemetaan database yang efisien.
 
 ---
 
@@ -17,7 +17,8 @@ Ini adalah aplikasi web yang dibangun menggunakan **Laravel 12**. Laravel adalah
 
 Projek ini dikembangkan oleh:
 
-**Kelvin Satria Hendra** _Junior Web Developer | PHP & Go Enthusiast_
+**Kelvin Satria Hendra**
+_Junior Web Developer | PHP & Go Enthusiast_
 
 ### Hubungi Saya:
 
@@ -41,10 +42,6 @@ Projek ini dikembangkan oleh:
 2. Jalankan `composer install`.
 3. Salin file `.env.example` menjadi `.env`.
 4. Jalankan `php artisan key:generate`.
-5. Atur koneksi database di file `.env`.
-6. Jalankan `php artisan migrate`.
+5. Atur database di `.env`, lalu jalankan `php artisan migrate`.
+6. Akses admin panel di: `/admin` (Default Filament).
 7. Jalankan server dengan `php artisan serve`.
-
-## Lisensi
-
-Framework Laravel adalah software open-source yang dilisensikan di bawah [Lisensi MIT](https://opensource.org/licenses/MIT).
